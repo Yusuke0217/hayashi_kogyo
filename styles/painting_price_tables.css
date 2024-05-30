@@ -1,0 +1,336 @@
+@media screen and (min-width: 560px) {
+  /* PC */
+  /* ----------  ---------- */
+  .painting_price_table_container {
+    width: 800px;
+    max-width: 1000px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+  }
+
+  .painting_price_table_container .index {
+  }
+
+  .painting_price_table_container .index span {
+  }
+
+  .painting_price_table_container .body {
+  }
+
+  .painting_price_table_container .body table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+  
+  .painting_price_table_container .body table thead {
+    background-color: var(--accent-color-code);
+  }
+
+  .painting_price_table_container .body table thead tr {
+  }
+
+  .painting_price_table_container .body table thead tr th {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+
+    padding: 12px;
+    border-color: #ffffff;
+  }
+
+  .painting_price_table_container .body table tbody {
+  }
+
+  .painting_price_table_container .body table tbody tr {
+  }
+
+  .painting_price_table_container .body table tbody tr td {
+    text-align: left;
+
+    padding: 12px;
+    background-color: #ffffff;
+  }
+
+  .painting_price_table_container .body table tbody tr td:first-of-type {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+
+    background-color: var(--accent-color-code);
+  }
+  
+  /* ----------  ---------- */
+  .paint_and_durability_table_container {
+    width: 800px;
+    max-width: 1000px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+  }
+
+  .paint_and_durability_table_container .index {
+  }
+
+  .paint_and_durability_table_container .index p {
+  }
+
+  .paint_and_durability_table_container .body {
+  }
+
+  .paint_and_durability_table_container .body table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+
+  .paint_and_durability_table_container .body table thead {
+    background-color: var(--accent-color-code);
+  }
+
+  .paint_and_durability_table_container .body table thead tr {
+  }
+
+  .paint_and_durability_table_container .body table thead tr th {
+    width: 50%;
+    padding: 12px;
+
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .paint_and_durability_table_container .body table tbody {
+  }
+
+  .paint_and_durability_table_container .body table tbody tr {
+  }
+
+  .paint_and_durability_table_container .body table tbody tr td {
+    padding: 12px;
+  }
+
+
+  /* ----------  ---------- */
+  .construction_options {
+    width: 800px;
+    max-width: 1000px;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+  }
+
+  .construction_options .index {
+  }
+
+  .construction_options .index span {
+    color: #555555;
+  }
+
+  .construction_options .body {
+  }
+
+  .construction_options .body table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+
+  .construction_options .body table tbody {
+  }
+
+  .construction_options .body table tbody tr {
+  }
+
+  .construction_options .body table tbody tr td {
+    text-align: left; 
+    padding: 12px;
+  }
+
+  .construction_options .body table tbody tr td:first-of-type {
+    width: 50%;
+
+    font-weight: bold;
+    background-color: #eeeeee;
+  }
+
+}
+
+@media screen and (max-width: 559px) {
+  /* Mobile */
+  /* ----------  ---------- */
+  .painting_price_table_container {
+    width: 100%;
+
+    margin-top: 0px;
+    margin-bottom: 45px;
+  }
+
+  .painting_price_table_container .index {
+    width: 100%;
+  }
+
+  .painting_price_table_container .index span {
+  }
+
+  .painting_price_table_container .body {
+    width: 100%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .painting_price_table_container .body table {
+    width: 720px;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+  
+  .painting_price_table_container .body table thead {
+    background-color: var(--accent-color-code);
+  }
+
+  .painting_price_table_container .body table thead tr {
+  }
+
+  .painting_price_table_container .body table thead tr th {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+
+    padding: 7px;
+    border-color: #ffffff;
+  }
+
+  .painting_price_table_container .body table tbody {
+  }
+
+  .painting_price_table_container .body table tbody tr {
+  }
+
+  .painting_price_table_container .body table tbody tr td {
+    text-align: left;
+
+    padding: 7px;
+    background-color: #ffffff;
+  }
+
+  .painting_price_table_container .body table tbody tr td:first-of-type {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+
+    background-color: var(--accent-color-code);
+  }
+  
+  /* ----------  ---------- */
+  .paint_and_durability_table_container {
+    width: 100%;
+
+    margin-top: 0px;
+    margin-bottom: 45px;
+  }
+
+  .paint_and_durability_table_container .index {
+  }
+
+  .paint_and_durability_table_container .index p {
+  }
+
+  .paint_and_durability_table_container .body {
+  }
+
+  .paint_and_durability_table_container .body table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+
+  .paint_and_durability_table_container .body table thead {
+    background-color: var(--accent-color-code);
+  }
+
+  .paint_and_durability_table_container .body table thead tr {
+  }
+
+  .paint_and_durability_table_container .body table thead tr th {
+    width: 50%;
+    padding: 7px;
+
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .paint_and_durability_table_container .body table tbody {
+  }
+
+  .paint_and_durability_table_container .body table tbody tr {
+  }
+
+  .paint_and_durability_table_container .body table tbody tr td {
+    padding: 7px;
+  }
+
+
+  /* ----------  ---------- */
+  .construction_options {
+    width: 100%;
+
+    margin-top: 0px;
+    margin-bottom: 45px;
+  }
+
+  .construction_options .index {
+  }
+
+  .construction_options .index span {
+  }
+
+  .construction_options .body table {
+  }
+
+  .construction_options .body table {
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 1px 1px;
+    border: 1px solid #eeeeee;
+  }
+
+  .construction_options .body table tbody {
+  }
+
+  .construction_options .body table tbody tr {
+  }
+
+  .construction_options .body table tbody tr td {
+    text-align: left; 
+    padding: 7px;
+  }
+
+  .construction_options .body table tbody tr td:first-of-type {
+    width: 50%;
+
+    font-weight: bold;
+    background-color: #eeeeee;
+  }
+
+}

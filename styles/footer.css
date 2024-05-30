@@ -1,0 +1,244 @@
+@media screen and (min-width: 560px) {
+  /* PC and Tablet */
+  /* ----------  ---------- */
+  footer#main_footer {
+    width: 100%;
+    height: 100px;
+
+    background-color: #eeeeee;
+    overflow: hidden;
+  }
+
+  footer#main_footer .footer_container {
+    width: 100%;
+    height: 100%;
+
+    max-width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  footer#main_footer .footer_container .company_information {
+  }
+
+  footer#main_footer .footer_container .company_information p {
+    font-weight: bold;
+  }
+
+  footer#main_footer .footer_container .company_information .address {
+    display: flex;
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .company_information .address p:first-of-type {
+    margin-right: 15px;
+  }
+
+  footer#main_footer .footer_container .company_information .address p.post_address {
+  }
+
+  footer#main_footer .footer_container .company_information .address p.home_address {
+  }
+
+  footer#main_footer .footer_container .company_information .phone_number {
+    display: flex;
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .company_information .phone_number svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  footer#main_footer .footer_container .company_information .business_hours {
+  }
+
+
+  
+  footer#main_footer .footer_container .social_media {
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links {
+    display: flex;
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li {
+    margin-right: 10px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li:last-of-type {
+    margin-right: 0px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li a {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    overflow: hidden;
+
+    border-radius: 5px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li a svg {
+    width: 40px;
+    height: 40px;
+    fill: #ffffff;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li a:hover {
+    opacity: 0.7;
+  }
+
+
+  /* -----  ----- */
+  footer#main_footer .footer_container .social_media ul.media_links li.x_app a {
+    background-color: #1DA1F1;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li.instagram_app a {
+    background: radial-gradient(circle at 30% 107%, rgb(253, 244, 151) 0%, rgb(253, 244, 151) 5%, rgb(253, 89, 73) 45%, rgb(214, 36, 159) 60%, rgb(40, 90, 235) 90%);
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li.line_app a {
+    background-color: #01B902;
+  }
+
+}
+
+@media screen and (max-width: 559px) {
+  /* Mobile */
+  /* ----------  ---------- */
+  footer#main_footer {
+    width: 100%;
+    height: 100px;
+
+    background-color: #eeeeee;
+    overflow: hidden;
+  }
+
+  footer#main_footer .footer_container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  footer#main_footer .footer_container .company_information {
+  }
+
+  footer#main_footer .footer_container .company_information p {
+    font-weight: bold;
+  }
+
+  footer#main_footer .footer_container .company_information .address {
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .company_information .address p:first-of-type {
+    margin-right: 5px;
+  }
+
+  footer#main_footer .footer_container .company_information .address p.post_address {
+    font-size: 14px;
+  }
+
+  footer#main_footer .footer_container .company_information .address p.home_address {
+    font-size: 14px;
+  }
+
+  footer#main_footer .footer_container .company_information .phone_number {
+    display: flex;
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .company_information .phone_number svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  footer#main_footer .footer_container .company_information .phone_number p {
+    font-size: 14px;
+  }
+
+  footer#main_footer .footer_container .company_information .business_hours {
+  }
+
+  footer#main_footer .footer_container .company_information .business_hours p {
+    font-size: 14px;
+  }
+
+
+  
+  footer#main_footer .footer_container .social_media {
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links {
+    display: flex;
+    align-items: center;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li {
+    margin-right: 10px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li:last-of-type {
+    margin-right: 0px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li a {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    overflow: hidden;
+
+    border-radius: 5px;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li a svg {
+    width: 25px;
+    height: 25px;
+    fill: #ffffff;
+  }
+
+  /* -----  ----- */
+  footer#main_footer .footer_container .social_media ul.media_links li.x_app a {
+    background-color: #1DA1F1;
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li.instagram_app a {
+    background: radial-gradient(circle at 30% 107%, rgb(253, 244, 151) 0%, rgb(253, 244, 151) 5%, rgb(253, 89, 73) 45%, rgb(214, 36, 159) 60%, rgb(40, 90, 235) 90%);
+  }
+
+  footer#main_footer .footer_container .social_media ul.media_links li.line_app a {
+    background-color: #01B902;
+  }
+}
